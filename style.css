@@ -110,7 +110,7 @@ html, body {
   
     .navbar-list a {
       color: #fff;
-        text-transform: uppercase;
+      text-transform: uppercase;
       padding: 10px 10px;
       text-decoration: none;
       font-size: 20px;
@@ -139,7 +139,6 @@ html, body {
 .img3 {
     background: url(img/corpusfusionpix.jpg);
     min-height: 80%;
-    margin-left:-1000px;
 }
 
 .img1, .img2, .img3 {
@@ -164,7 +163,7 @@ section p {
     position: absolute;
     top: 15%;
     text-shadow: 0 0 15px;
-   padding: 80px 30px;
+   padding: 0px 30px;
    width: 80%;
 }
 
