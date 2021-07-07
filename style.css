@@ -286,9 +286,14 @@ section p {
   text-align: center;
   }
     
+  .intro h1 {
+    line-height: 60px;
+    padding-bottom: 20px;
+  }
+    
     .intro h1 {
       font-size: 50px;
-    }
+   }
 
     .intro p {
       font-size: 25px;
