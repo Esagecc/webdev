@@ -145,9 +145,12 @@ html, body {
     position: relative;
     opacity: 0.85;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 
 section {
@@ -314,4 +317,8 @@ section p {
     .sect p {
       font-size: 22px;
     }
+    
+    .img1, .img2, .img3 { 
+    background-size: cover;    
+}
 }
