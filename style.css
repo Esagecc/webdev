@@ -161,10 +161,15 @@ section p {
 
 .intro{
     position: absolute;
-    top: 15%;
+    top: 10%;
     text-shadow: 0 0 15px;
    padding: 0px 30px;
    width: 80%;
+}
+
+.intro h1 {
+  line-height: 38px;
+  padding-bottom: 15px;
 }
 
 .intro p {
