@@ -5,24 +5,23 @@
 }
 
 * {
-    font-family: 'Oswald', sans-serif;
-    margin: 0px;
-    padding:0;
-    
+  font-family: 'Oswald', sans-serif;
+  margin: 0px;
+  padding:0;
 }
 
 html, body {
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    color:  #fff;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color:  #fff;
 }
 
 .logo {
-    padding-left: 50px;
+  padding: 15px 20px;
 }
 
 .logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
  
 /* animated xs */
@@ -35,7 +34,7 @@ html, body {
   height: 40px;
   cursor: pointer;
   transition: all .5s ease-in-out;
-  border: 3px solid #fff;
+  /* border: 3px solid #fff; */
   margin-right: 20px;
 }
 
@@ -79,96 +78,95 @@ html, body {
   transform: rotate(-45deg) translate(35px, 35px);
 }
 
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-  }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
   
-  .navbar {
-    background-color: #333;
-  }
+.navbar {
+  background-color: #333;
+}
 
-    .top-navbar {
-      overflow: hidden;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
+.top-navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
     
-    .navbar-list {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      display: none;
-    }
+.navbar-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+}
   
-    .navbar-list.active {
-      display: flex;
-    }
+.navbar-list.active {
+  display: flex;
+}
   
-    .navbar-list a {
-      color: #fff;
-      text-transform: uppercase;
-      padding: 10px 10px;
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: 700px;   
-    }
+.navbar-list a {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700px;   
+}
     
-    .navbar-list  a:hover {
-      background-color: #c5ffc4;
-      height: 100%;
-      align-self: center;
-      color: #245e23;
-    }
-
-
+.navbar-list  a:hover {
+  background-color: #c5ffc4;
+  height: 100%;
+  align-self: center;
+  color: #245e23;
+}
 
 .img1 {
-    background: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
-    min-height: 100%;
+  background: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
+  min-height: 100%;
 }
 
 .img2 {
-    background: url(img/kal-visuals-K8URdlN3mRU-unsplash.jpg);
-    min-height: 60%;
+  background: url(img/kal-visuals-K8URdlN3mRU-unsplash.jpg);
+  min-height: 60%;
 }
 
 .img3 {
-    background: url(img/corpusfusionpix.jpg);
-    min-height: 80%;
+  background: url(img/corpusfusionpix.jpg);
+  min-height: 80%;
 }
 
 .img1, .img2, .img3 {
-    position: relative;
-    opacity: 0.85;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  position: relative;
+  opacity: 0.85;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 section {
-    padding: 80px 30px;
-    background-color: #333;
+  padding: 80px 30px;
+  background-color: #333;
 }
 
 section p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .intro{
-    position: absolute;
-    top: 10%;
-    text-shadow: 0 0 15px;
-   padding: 0px 30px;
-   width: 80%;
+  position: absolute;
+  top: 10%;
+  text-shadow: 0 0 15px;
+  padding: 0px 30px;
+  width: 90%;
 }
 
 .intro h1 {
-  line-height: 38px;
+  font-size: 2.1rem;
+  line-height: 2.5rem;
   padding-bottom: 15px;
 }
 
@@ -176,9 +174,9 @@ section p {
     font-size: 20px;
 }
 .caption {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
 /* following code is for the button */
@@ -205,7 +203,6 @@ section p {
   background-color: #9ac499;
   color: #fff;
 }
-
 
 .social_icons {
   position: relative;
