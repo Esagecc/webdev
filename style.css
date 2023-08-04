@@ -124,17 +124,17 @@ html, body {
 }
 
 .img1 {
-  background: url(img/chris-murray-iwfHhOZLVMU-unsplash_cropped.jpg);
+  background-image: url(img/chris-murray-iwfHhOZLVMU-unsplash_cropped.jpg);
   min-height: 90%;
 }
 
 .img2 {
-  background: url(img/kal-visuals-K8URdlN3mRU-unsplash_cropped.jpg);
+  background-image: url(img/kal-visuals-K8URdlN3mRU-unsplash_cropped.jpg);
   min-height: 90%;
 }
 
 .img3 {
-  background: url(img/corpusfusionpix_cropped.jpg);
+  background-image: url(img/corpusfusionpix_cropped.jpg);
   min-height: 80%;
 }
 
@@ -285,15 +285,15 @@ section p {
   }
 
   .img1 {
-    background: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
+    background-image: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
   }
   
   .img2 {
-    background: url(img/kal-visuals-K8URdlN3mRU-unsplash.jpg);
+    background-image: url(img/kal-visuals-K8URdlN3mRU-unsplash.jpg);
   }
   
   .img3 {
-    background: url(img/corpusfusionpix.jpg);
+    background-image: url(img/corpusfusionpix.jpg);
   }
     
   .intro h1 {
