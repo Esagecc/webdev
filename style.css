@@ -124,7 +124,7 @@ html, body {
 }
 
 .img1 {
-  background-image: url(img/chris-murray-iwfHhOZLVMU-unsplash_cropped.jpg);
+  background-image: url(img/pexels-ron-lach-8089652_cropped.jpg);
   min-height: 90%;
 }
 
@@ -140,9 +140,9 @@ html, body {
 
 .img1, .img2, .img3 {
   position: relative;
-  opacity: 0.85;
+  opacity: 0.9;
   background-position: center;
-  background-size:contain;
+  background-size:cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -285,7 +285,7 @@ section p {
   }
 
   .img1 {
-    background-image: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
+    background-image: url(img/pexels-ron-lach-8089652.jpg);
   }
   
   .img2 {
