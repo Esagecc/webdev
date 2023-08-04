@@ -125,7 +125,7 @@ html, body {
 
 .img1 {
   background-image: url(img/pexels-ron-lach-8089652_cropped.jpg);
-  min-height: 90%;
+  min-height: 100%;
 }
 
 .img2 {
@@ -142,7 +142,7 @@ html, body {
   position: relative;
   opacity: 0.9;
   background-position: center;
-  background-size:cover;
+  background-size:contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -295,6 +295,10 @@ section p {
   .img3 {
     background-image: url(img/corpusfusionpix.jpg);
   }
+  
+  .img1, .img2, .img3 {
+    background-size: cover;
+  }
     
   .intro h1 {
     line-height: 60px;
@@ -302,11 +306,14 @@ section p {
   }
     
   .intro h1 {
-    font-size: 50px;
+    font-size: 3.2rem;
+    line-height: 5rem;
   }
 
   .intro p {
-    font-size: 25px;
+    font-size: 1.8rem;
+    width: 50%;
+    line-height: 3rem;
   }
 
   section {
@@ -314,7 +321,7 @@ section p {
   }
 
   .sec {
-    width: 70%;
+    width: 55%;
     margin: 0 auto;
   }
 
