@@ -124,17 +124,17 @@ html, body {
 }
 
 .img1 {
-  background: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
-  min-height: 100%;
+  background: url(img/chris-murray-iwfHhOZLVMU-unsplash_cropped.jpg);
+  min-height: 90%;
 }
 
 .img2 {
-  background: url(img/kal-visuals-K8URdlN3mRU-unsplash.jpg);
-  min-height: 60%;
+  background: url(img/kal-visuals-K8URdlN3mRU-unsplash_cropped.jpg);
+  min-height: 90%;
 }
 
 .img3 {
-  background: url(img/corpusfusionpix.jpg);
+  background: url(img/corpusfusionpix_cropped.jpg);
   min-height: 80%;
 }
 
@@ -142,7 +142,7 @@ html, body {
   position: relative;
   opacity: 0.85;
   background-position: center;
-  background-size: 50%;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -171,7 +171,7 @@ section p {
 }
 
 .intro p {
-    font-size: 20px;
+  font-size: 20px;
 }
 .caption {
   position: absolute;
@@ -245,42 +245,55 @@ section p {
 }
 
 @media (min-width: 700px) {
-    .toggle {
-        display: none;
-    }
+  .toggle {
+    display: none;
+  }
   
-    .container {
-      flex-direction: row;
-      margin: 0 auto;
-      width: 80%;
-      }
+  .container {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 80%;
+  }
         
   .navbar {
-      display: flex;
-      margin: 0 auto;
-      width: 100%;
-      justify-content: space-between;
-    }
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+  }
   
   .navbar-list {
-     display: flex;
+    display: flex;
     flex-direction: row;
-     text-align: center;
-      }
+    text-align: center;
+  }
       
   .navbar-list a {
     padding: 0 20px;
   }
+
   .container,
   .topnav {
-  margin: 0 auto;
-  width: 70%;
+    margin: 0 auto;
+    width: 70%;
   }
   
   .topnav {
-  overflow: hidden;
-  background-color: #333;
-  text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+
+  .img1 {
+    background: url(img/chris-murray-iwfHhOZLVMU-unsplash.jpg);
+  }
+  
+  .img2 {
+    background: url(img/kal-visuals-K8URdlN3mRU-unsplash.jpg);
+  }
+  
+  .img3 {
+    background: url(img/corpusfusionpix.jpg);
   }
     
   .intro h1 {
@@ -288,31 +301,32 @@ section p {
     padding-bottom: 20px;
   }
     
-    .intro h1 {
-      font-size: 50px;
-   }
+  .intro h1 {
+    font-size: 50px;
+  }
 
-    .intro p {
-      font-size: 25px;
-    }
+  .intro p {
+    font-size: 25px;
+  }
 
   section {
     padding: 80px 0;
   }
+
   .sec {
     width: 70%;
     margin: 0 auto;
   }
 
-    .sect h1 {
-      font-size: 30px;
-    }
+  .sect h1 {
+    font-size: 30px;
+  }
 
-    .sect p {
-      font-size: 22px;
-    }
+  .sect p {
+    font-size: 22px;
+  }
     
-    .img1, .img2, .img3 { 
-    background-size: cover;    
-}
+  .img1, .img2, .img3 { 
+  background-size: cover;    
+  }
 }
