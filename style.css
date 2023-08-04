@@ -125,7 +125,7 @@ html, body {
 
 .img1 {
   background-image: url(img/pexels-ron-lach-8089652_cropped.jpg);
-  min-height: 100%;
+  min-height: 90%;
 }
 
 .img2 {
@@ -134,7 +134,7 @@ html, body {
 }
 
 .img3 {
-  background-image: url(img/corpusfusionpix_cropped.jpg);
+  background-image: url(img/pexels-orlando-allo-8770513_cropped.jpg);
   min-height: 80%;
 }
 
@@ -293,13 +293,13 @@ section p {
   }
   
   .img3 {
-    background-image: url(img/corpusfusionpix.jpg);
+    background-image: url(img/pexels-orlando-allo-8770513.jpg);
   }
   
   .img1, .img2, .img3 {
     background-size: cover;
   }
-    
+
   .intro h1 {
     line-height: 60px;
     padding-bottom: 20px;
